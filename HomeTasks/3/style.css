@@ -11,8 +11,7 @@ body {
 h4 {
     color: snow;
     font-size: 50px;
-    text-shadow: black 0 0 5px;
-    ;
+    text-shadow: black 0 0 50px;
 }
 
 h3 {
@@ -21,10 +20,60 @@ h3 {
 
 p {
     font-family: 'Pacifico', cursive;
+
 }
 
 .pic_in_text {
-    float: left;
-    margin: 0 15 0 0;
+    margin: 0 5;
     width: 20%;
+    height: 100%;
+}
+
+#div_frodo {
+    border: double black;
+    margin-top: 5px;
+}
+
+#div_sam {
+    border: dotted red;
+    margin-top: 10px;
+}
+
+#div_pipin {
+    border: solid purple;
+    margin-top: 15px;
+}
+
+#div_merry {
+    border: double green;
+    margin-top: 20px;
+}
+
+#div_gendalf {
+    border: dotted greenyellow;
+    margin-top: 25px;
+}
+
+#div_gimli {
+    border: solid blue;
+    margin-top: 30px;
+}
+
+#div_legolas {
+    border: double orange;
+    margin-top: 35px;
+}
+
+#div_aragorn {
+    border: dotted sienna;
+    margin-top: 45px;
+}
+
+#div_boromir {
+    border: solid brown;
+    margin-top: 45px;
+}
+
+#flex {
+    display: flex;
 }
