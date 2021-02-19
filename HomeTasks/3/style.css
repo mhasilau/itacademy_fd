@@ -20,6 +20,9 @@ h3 {
 
 p {
     font-family: 'Pacifico', cursive;
+    margin: 0 10 0 0;
+    border: 2px solid black;
+    padding: 5px;
 
 }
 
