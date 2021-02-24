@@ -1,0 +1,113 @@
+.parent {
+    background-color: darkgreen;
+}
+
+.header {
+    background-color: darkgrey;
+    height: 80px;
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+}
+
+.body {
+    background-color: darkkhaki;
+    height: 500px;
+    display: flex;
+}
+
+.con1 {
+    background-color: darkred;
+    height: 70px;
+}
+
+.con2 {
+    background-color: darksalmon;
+    height: 70px;
+}
+
+.con3 {
+    background-color: darkseagreen;
+    height: 70px;
+}
+
+.menu {
+    background-color: darkmagenta;
+    width: 30%;
+}
+
+.content {
+    background-color: darkolivegreen;
+    width: 60%;
+    margin: 15px;
+    flex-basis: auto;
+}
+
+.sitebar {
+    background-color: darkorange;
+    width: 30%;
+    padding: 10px;
+}
+
+.footer {
+    background-color: darkorchid;
+    height: 50px;
+    margin: 10px;
+    display: flex;
+}
+
+.logo {
+    background-color: darkslateblue;
+    width: 20%;
+}
+
+.photo {
+    background-color: darkslategray;
+    width: 20%;
+}
+
+.foot {
+    background-color: deeppink;
+    width: 100%;
+    display: flex;
+    padding: 5px;
+}
+
+.foot1 {
+    background-color: darkturquoise;
+    width: 15%;
+}
+
+.foot2 {
+    background-color: darkviolet;
+    width: 20%;
+}
+
+.foot3 {
+    background-color: darkturquoise;
+    width: 25%;
+}
+
+.foot4 {
+    background-color: darkviolet;
+    width: 20%;
+}
+
+.foot5 {
+    background-color: darkturquoise;
+    width: 20%;
+}
+.bar1 {
+    background-color: deeppink;
+    height: 33%;
+}
+
+.bar2 {
+    background-color: rgb(51, 32, 42);
+    height: 33%;
+}
+
+.bar3 {
+    background-color: rgb(226, 209, 218);
+    height: 33%;
+}
