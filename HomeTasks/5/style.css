@@ -1,0 +1,125 @@
+body {
+    min-width: 1000px;
+}
+    
+/* div {
+    opacity: 1;
+}background-image: url(./pic/1610963001552.jpeg);
+    opacity: .5; */
+
+.main {
+    height: 500px;
+    /* padding: 0px 250px; */
+}
+
+.header {
+    height: 80px;
+    display: flex;
+    /* background-color: blue; */
+    padding: 0px 30px;
+}
+
+.content {
+    height: 800px;
+    background-color: blueviolet;
+    display: flex;
+}
+
+/* .photo {
+    
+} */
+
+.logo {
+    /* flex-basis: 20%; */
+    width: 20%;
+}
+
+.data {
+    /* flex-basis: 20%; */
+    width: 20%;
+    display: flex;
+}
+
+.buttons {
+    /* flex-basis: 60%; */
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 5% 0 0;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+button {
+    width: 80%;
+    height: 80%;
+}
+
+.but {
+    /* flex-basis: 20%; */
+    width: 20%;
+}
+
+.con_left {
+    /* flex-basis: 25%; */
+    width: 25%;
+    background-color: brown;
+    height: 100%;
+}
+
+.con_center {
+    /* flex-basis: 50%; */
+    width: 50%;
+    background-color: burlywood;
+    height: 100%;
+}
+
+.con_right {
+    /* flex-basis: 25%; */
+    width: 25%;
+    background-color: cadetblue;
+    height: 100%;
+}
+
+.footer {
+    height: 150px;
+    background-color: chartreuse;
+}
+
+p {
+    width: 100%;
+}
+
+#av {
+    min-width: 80px;
+    min-height: 80px;
+    max-width: 80px;
+    min-height: 80px;
+}
+
+.left_down {
+    background-color: chartreuse;
+}
+
+.left_up {
+    background-color: cornflowerblue;
+}
+
+.ld_1 {
+    background-color: cornsilk;
+}
+
+.ld_2 {
+    background-color: rgb(59, 127, 204);
+}
+
+.ld_3 {
+    background-color: rgb(37, 117, 27);
+}
+
+.ld_4 {
+    background-color: rgb(88, 75, 21);
+}
