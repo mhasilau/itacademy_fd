@@ -1,0 +1,26 @@
+.border {
+    background-color: aqua;
+    height: 20px;
+}
+
+/* .border td {
+    width: 20px;
+} */
+
+tr {
+    height: 40px;
+}
+
+td {
+    width: 40px;
+    text-align: center;
+}
+
+.black {
+    background-color: black;
+}
+
+#td20 {
+    width: 20px;
+}
+
