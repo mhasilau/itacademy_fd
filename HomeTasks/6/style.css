@@ -3,17 +3,22 @@
     height: 20px;
 }
 
-/* .border td {
-    width: 20px;
-} */
+#noimage {
+    background-image: none;
+}
 
 tr {
-    height: 40px;
+    height: 50px;
 }
 
 td {
-    width: 40px;
+    width: 50px;
     text-align: center;
+
+}
+
+#black {
+    background-color: black;
 }
 
 .black {
@@ -22,5 +27,23 @@ td {
 
 #td20 {
     width: 20px;
+    background-image: none;
+}
+
+.chess {
+    background-image: url("./chess.png");
+    background-repeat: no-repeat;
+}
+
+#bking {
+    /* background-image: url("./chess.png");
+    background-repeat: no-repeat; */
+    background-position: 7px 0px;
+}
+
+#wking {
+    /* background-image: url("./chess.png");
+    background-repeat: no-repeat; */
+    background-position: 7px 50px;
 }
 
