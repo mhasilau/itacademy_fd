@@ -36,14 +36,9 @@ td {
 }
 
 #bking {
-    /* background-image: url("./chess.png");
-    background-repeat: no-repeat; */
     background-position: 7px 0px;
 }
 
-#wking {
-    /* background-image: url("./chess.png");
-    background-repeat: no-repeat; */
-    background-position: 7px 50px;
-}
-
+#wking{
+    background-position: 7px -50px;
+} 
