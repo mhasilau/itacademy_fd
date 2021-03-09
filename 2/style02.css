@@ -1,0 +1,27 @@
+#h {
+    color: green;
+    text-decoration: underline;
+    font-size: 50px;
+}
+
+p {
+    font: bold italic 80% verdana;
+    color: rgb(29, 7, 90);
+}
+
+ul {
+    font: bold italic 90% arial;
+    color: rgb(29, 7, 90);
+}
+
+li {
+    font: bold italic 90% arial;
+    color: rgb(245, 55, 7);
+}
+
+#html {
+    color: rgb(165, 34, 137);
+    text-decoration: underline double;
+    font-size: 15px;
+    background-color: rgb(207, 202, 202);
+}
