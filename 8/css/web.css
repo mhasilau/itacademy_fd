@@ -1,0 +1,64 @@
+body {
+    min-width: 400px;
+}
+
+/* .main_block {
+    position: relative;
+} */
+
+.header {
+    display: flex;
+    height: 50px;
+    background-color: rgb(59, 139, 214);
+    justify-content: space-between;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.auth {
+    align-self: center;
+}
+
+.auth button{
+    border: 1px solid;
+    border-radius: 10px;
+    height: 40px;
+    align-self: center;
+}
+
+.content {
+    display: flex;
+}
+
+.form_in {
+    flex-basis: 30%;
+    display: flex;
+    max-height: 300px;
+}
+
+#btns {
+    display: inline-block;
+}
+
+.footer {
+    background-color: rgb(59, 139, 214);
+    border-radius: 10px 10px 0px 0px;
+	position: fixed; 
+	bottom: 0;
+    left: 0;
+	height: 90px;
+    padding: 10px;
+    margin: 10px;
+    width: -webkit-fill-available;
+
+}
+
+.text {
+    height: 100%;
+    flex-basis: 50%;
+    max-height: 70vh;
+    overflow-y: auto;
+}

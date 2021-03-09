@@ -1,0 +1,28 @@
+a {
+    text-decoration: none;
+}
+
+.content p {
+    padding: 5px;
+    text-align: justify;
+}
+
+.footer p{
+    line-height: 0.2;
+    padding-top: 1px;
+}
+
+.text {
+    overflow: auto;
+}
+
+.text::-webkit-scrollbar {
+    width: 10px;
+    background-color: rgb(59, 139, 214);
+    border-radius: 10px;
+}
+
+.text::-webkit-scrollbar-thumb {
+    background-color: rgb(168, 168, 167);
+    border-radius: 10px;
+}
