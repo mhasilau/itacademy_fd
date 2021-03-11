@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+}
+
+.wrapper {
+    width: 300px;
+    height: 300px;
+    border: 1px solid;
+}
+
+.child {
+    background-color: aquamarine;
+    border: 1px solid;
+    width: 150px;
+    height: 150px;
+    /* margin: 15px; */
+    position: relative;
+    left: 0;
+    transition-duration: 1s;
+    transition-timing-function: cubic-bezier(1, 2, 3, 4);
+}
+
+.child:hover {
+    background-color: chartreuse;
+    position: relative;
+    /* left: 30px; */
+    transform: translate(50px, 70px);
+}
