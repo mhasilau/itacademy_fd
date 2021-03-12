@@ -1,0 +1,11 @@
+.main {
+    border: 1px solid;
+    margin: 10px;
+    background-color: cornflowerblue;
+    padding: 2px;
+}
+
+p {
+    border: 1px solid;
+    padding: 2px;
+}
