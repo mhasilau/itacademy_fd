@@ -2,10 +2,6 @@
     margin: 0;
 }
 
-div {
-    background-color: blueviolet;
-}
-
 .main {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
@@ -21,6 +17,8 @@ div {
     background-image: url("../pic/backgr.jpg");
     grid-column: 1/4;
     border-radius: 0 0 10px 10px;
+    display: grid;
+    grid-template-columns: 1fr 20fr 1fr;
     
 }
 
@@ -35,11 +33,11 @@ div {
     width: -webkit-fill-available;
 }
 
-embed {
+iframe {
     width: 100%;
     height: 100%;
 }
 
 #content {
-    height: 100%;
+    height: 85vh;;
 }
