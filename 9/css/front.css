@@ -2,15 +2,44 @@
     margin: 0;
 }
 
+div {
+    background-color: blueviolet;
+}
+
 .main {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
-    grid-auto-rows: minmax(250px, auto);
+    grid-auto-rows: minmax(auto, auto);
+    grid-auto-columns: min-content;
+    gap: 10px;
+    background-color: burlywood;
 }
 
 .header {
     height: 70px;
-    background-color: rgb(39, 130, 248);
+    /* background-color: rgb(39, 130, 248); */
+    background-image: url("../pic/backgr.jpg");
     grid-column: 1/4;
     border-radius: 0 0 10px 10px;
+    
+}
+
+.footer {
+    height: 70px;
+    /* background-color: rgb(39, 130, 248); */
+    background-image: url("../pic/backgr.jpg");
+    grid-column: 1/4;
+    border-radius: 10px 10px 0 0;
+    position: fixed;
+    bottom: 0;
+    width: -webkit-fill-available;
+}
+
+embed {
+    width: 100%;
+    height: 100%;
+}
+
+#content {
+    height: 100%;
 }
