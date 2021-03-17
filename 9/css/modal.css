@@ -14,8 +14,12 @@
 }
 
 #register {
+<<<<<<< HEAD
     /* background-color: green; */
     background-image: url(../pic/backgr.jpg);
+=======
+    background-color: green;
+>>>>>>> 6b493da2b79b8eb7370b8f981a105b8b4b9813ff
     display: flex;
     flex-direction: column;
     align-items: center;
