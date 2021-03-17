@@ -9,10 +9,19 @@
     </head>
     <body>
         <div class="main">
-            <div class="header"></div>
+            <div class="header">
+                <div>
+                    <img src="" alt="">
+                </div>
+                <div></div>
+                <div>
+                    <button>Sign up</button>
+                </div>
+            </div>
             <div>
                 <form>
-                    <span>I don't know why there is a login here, but nevertheless</span>
+                    <span>I don't know why t</span>
+                    <!-- <span>I don't know why there is a login here, but nevertheless</span> -->
                     <div>
                         <label for="email">E-mail</label>
                         <input type="email" placeholder="Enter e-mail" required>
@@ -28,12 +37,54 @@
                 </form>
             </div>
             <div id="content">
-                <embed src="./doc/army.txt" type="">
+                <iframe src="./doc/army.txt" frameborder="0"></iframe>
             </div>
             <div>
                 <img src="./pic/voenkom.jpg" alt="">
             </div>
             <div class="footer"></div>
+        </div>
+        <div id="form_modal">
+            <form id="register">
+                <span>Let's create your account =)</span>
+                <div>
+                    <label for="login">Choose the login</label>
+                    <input type="login" placeholder="Enter Login" required>
+                </div>
+                <div>
+                    <label for="email">E-mail</label>
+                    <input type="email" placeholder="Enter e-mail" required>
+                </div>
+                <div>
+                    <label for="pass1">Enter password</label>
+                    <input id="pass1" type="password" placeholder="Password" required>
+                </div>
+                <div>
+                    <label for="pass2">Confirm password</label>
+                    <input id="pass2" type="password" placeholder="Password" required>
+                </div>
+                <div class="gender">
+                    <label for="1">Male</label>
+                    <input type="radio" id="1" name="gender" required>
+                    <label for="2">Female</label>
+                    <input type="radio" id="1" name="gender">
+                    <label for="3">Not decided yet</label>
+                    <input type="radio" id="3" name="gender">
+                </div>
+                <div class="policy">
+                    <input type="checkbox" id="policy" required>
+                    <label for="policy">I agree with the privacy policy</label>
+                </div> 
+                <div>
+                    <label for="avatar">Choose avatar</label>
+                    <input id="avatar" type="file" required>
+                </div>
+                <div id="btns">
+                    <button><a href="./index.html">Close</a></button>
+                    <button type="reset">Clear</button>
+                    <button type="submit">Register</button> 
+                </div>
+            </form>
         </div>
     </body>
 </html>
