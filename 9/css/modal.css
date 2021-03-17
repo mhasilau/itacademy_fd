@@ -14,12 +14,8 @@
 }
 
 #register {
-<<<<<<< HEAD
-    /* background-color: green; */
+    padding-top: 10px;
     background-image: url(../pic/backgr.jpg);
-=======
-    background-color: green;
->>>>>>> 6b493da2b79b8eb7370b8f981a105b8b4b9813ff
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -28,5 +24,20 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 60px;
-    min-width: 300px;
+    min-width: 470px;
+}
+
+#maxwidth {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#maxwidth:target {
+    display: block;
+    background-color: rgb(100, 100, 100, 0.5);
 }

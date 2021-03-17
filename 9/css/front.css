@@ -2,49 +2,60 @@
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
+#spansignin {
+    margin-bottom: 10px;
+}
+
+span, label {
+    font-family: 'Press Start 2P', cursive;
+    font-size: smaller;
+    text-align: center;
+    color: white;
+    text-shadow: black 0 0 6px;
+}
+
 .main {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
     grid-auto-rows: minmax(auto, auto);
     grid-auto-columns: min-content;
     gap: 10px;
-    background-color: burlywood;
     height: 100%;
 }
 
 .header {
     height: 70px;
-    /* background-color: rgb(39, 130, 248); */
     background-image: url("../pic/backgr.jpg");
     grid-column: 1/4;
     border-radius: 0 0 10px 10px;
     display: grid;
-    grid-template-columns: 1fr 20fr 1fr;
-    
+    grid-template-columns: 3fr 18fr 2fr;
+}
+
+#logo img {
+    height: 70%;
+}
+
+#logo {
+    animation: spin 1s linear infinite;
 }
 
 .footer {
     height: 70px;
-    /* background-color: rgb(39, 130, 248); */
     background-image: url("../pic/backgr.jpg");
     grid-column: 1/4;
     border-radius: 10px 10px 0 0;
-    position: fixed;
-    bottom: 0;
-    width: -webkit-fill-available;
 }
 
-iframe {
+#doc {
     width: 100%;
     height: 100%;
 }
 
-<<<<<<< HEAD
-/* #content {
-    height: 85vh;;
-} */
-=======
-#content {
-    height: 85vh;;
+#signup {
+    margin-top: 25px;
 }
->>>>>>> 6b493da2b79b8eb7370b8f981a105b8b4b9813ff
