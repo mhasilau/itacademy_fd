@@ -1,0 +1,13 @@
+$border: 1px solid;
+// $width100: 100px;
+
+%bloks {
+    border: $border;
+    // width: $width100;
+    width: 400px/567px*100%;
+}
+
+@mixin fontZ($fs, $col) {
+    font-size: $fs;
+    color: $col;
+}

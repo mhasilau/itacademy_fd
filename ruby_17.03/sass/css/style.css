@@ -1,0 +1,23 @@
+.wrapper, .wrapper__child {
+  border: 1px solid;
+  width: 70.5467372134%;
+}
+
+.wrapper {
+  height: 200px;
+  background-color: coral;
+}
+.wrapper span {
+  color: red;
+}
+.wrapper__child {
+  height: 100px;
+  background-color: crimson;
+}
+.wrapper__child span {
+  font-size: 50px;
+  color: royalblue;
+}
+.wrapper__child:hover {
+  background-color: sandybrown;
+}
