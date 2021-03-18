@@ -1,0 +1,22 @@
+.main {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-auto-rows: minmax(auto, auto);
+    grid-auto-columns: min-content;
+    gap: 10px;
+
+    .header {
+        display: grid;
+        height: 70px;
+        grid-template-columns: 3fr 15fr 4fr 2fr;
+        grid-column: 1/4;
+        background-color: blue;
+        border-radius: 0 0 10px 10px;
+
+        img {
+            height: 70%;
+            background-color: blue;
+        }
+    }
+}
+
