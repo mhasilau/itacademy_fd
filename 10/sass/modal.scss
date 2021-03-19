@@ -1,0 +1,29 @@
+#form_modal {
+    @extend %form;
+    @include size (100vw, 100vh);
+    background-color: black;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    &:target {
+        display: block;
+        background-color: rgba(197, 180, 180, 0.5);
+    }
+
+    #register {
+        padding-top: 10px;
+        background-color: aqua;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 30%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 60px;
+        min-width: 470px;
+    }
+
+}    

@@ -1,0 +1,53 @@
+$posW: center;
+$posH: center;
+
+%posWH {
+    align-self: $posH;
+    text-align: $posW;
+}
+
+
+@mixin posWH ($posH, $posW) {
+    align-self: $posH;
+    text-align: $posW;
+}
+
+
+@mixin size ($w, $h) {
+    width: $w;
+    height: $h;
+}
+
+%form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+
+    div {
+        display: flex;
+        flex-direction: column;
+        margin: 10px
+    }
+
+    #btns {
+        display: inline-block;
+    }
+
+    .gender, .policy {
+        display: inline-block;
+    }
+
+    input:invalid {
+        background-color:rgb(223, 136, 136);
+    }
+    
+    input:valid {
+        background-color:rgb(124, 204, 124);
+    }
+
+    &:invalid [type=submit] {
+        pointer-events: none;
+    }
+}
