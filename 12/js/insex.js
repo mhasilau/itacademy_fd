@@ -27,12 +27,10 @@ const result = document.getElementById("result");
 
 
 function zeroClick() {
-    vars.innerHTML = zero.value;
+    // vars.innerHTML = zero.value;
     // variables.innerHTML = zero.value;
-    // result.innerHTML = zero.value;
-    console.log(zero.value);
-
-    
+    result.innerHTML = variables.value;
+    console.log(zero.value);    
 }
 
 function oneClick() {
@@ -90,26 +88,29 @@ function multiplyClick() {
     console.log(multiply.value);
 }
 
-
-
 function minusClick() {
     variables.innerHTML = minus.value;
     console.log(minus.value);
 }
-
-
-
-
 
 function dotClick() {
     variables.innerHTML = dot.value;
     console.log(dot.value);
 }
 
-
-
-
 function plusClick() {
     variables.innerHTML = plus.value;
     console.log(plus.value);
+}
+
+// function equallyClick() {
+    
+//     result.innerHTML = variables.value;
+//     console.log(variables.value);    
+// }
+
+function equallyClick() {
+    let x = variables.value;
+    result.innerHTML = x.value;
+    console.log(x.value);    
 }

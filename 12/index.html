@@ -12,7 +12,7 @@
             <table>
                 <tr>
                     <td colspan="5">
-                        <textarea readonly name="result" cols="40" rows="3"></textarea>
+                        <textarea readonly name="result" cols="40" rows="3" id="result"></textarea>
                     </td>
                 </tr>
                 <tr>
@@ -44,7 +44,7 @@
                     <td><button id="two" value="2" onclick="twoClick()">2</button></td>
                     <td><button id="tree" value="3" onclick="treeClick()">3</button></td>
                     <td><button id="minus" value="-" onclick="minusClick()">-</button></td>
-                    <td rowspan="2"><button id="equally">=</button></td>
+                    <td rowspan="2"><button id="equally"  onclick="equallyClick()">=</button></td>
                 </tr>
                 <tr>
                     <td colspan="2"><button id="zero" value="0" onclick="zeroClick()">0</button></td>
