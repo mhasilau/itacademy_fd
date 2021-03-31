@@ -1,7 +1,7 @@
 const zero = document.getElementById("zero");
 const one = document.getElementById("one");
 const two = document.getElementById("two");
-const tree = document.getElementById("tree");
+const three = document.getElementById("three");
 const four = document.getElementById("four");
 const five = document.getElementById("five");
 const six = document.getElementById("six");
@@ -22,85 +22,95 @@ const equally = document.getElementById("equally");
 const dot = document.getElementById("dot");
 const plus = document.getElementById("plus");
 
-const variables = document.getElementById("vars");
-const result = document.getElementById("result");
+let variables = document.getElementById("vars");
+let result = document.getElementById("result");
 
+let num = 0;
+
+
+
+// function plusClick(sum) {
+//     document.variables.value = document.variables.value + sum;
+//     result.innerHTML = document.variables.value;
+// }
+
+function plusClick() {
+    variables += num;
+    document.variables.value = document.variables.value + sum;
+    result.innerHTML = document.variables.value;
+}
+
+
+// function insert(num) {
+//     document.form.textview.value = document.form.textview.value + num;
+//     result.innerHTML = document.form.textview.value;
+// }
+
+function equallyClick() {
+    let inValue = document.variables.value;
+    let inEqual = eval(document.variables.value); // eval выполняет значение в скобках
+    result.innerHTML = `${inpValue} = ${inpEqual}`;
+    document.variables.value = eval(document.variables.value);
+}
 
 function zeroClick() {
-    // vars.innerHTML = zero.value;
-    // variables.innerHTML = zero.value;
-    result.innerHTML = variables.value;
-    console.log(zero.value);    
+    variables.value += 0;   
 }
 
 function oneClick() {
-    variables.innerHTML = one.value;
-    console.log(one.value);
+    variables.value += 1;
 }
 
 function twoClick() {
-    variables.innerHTML = two.value;
-    console.log(two.value);
+    variables.value += 2;
 }
 
-function treeClick() {
-    variables.innerHTML = tree.value;
-    console.log(tree.value);
+function threeClick() {
+    variables.value += 3;
 }
 
 function fourClick() {
-    variables.innerHTML = four.value;
-    console.log(four.value);
+    variables.value += 4;
 }
 
 function fiveClick() {
-    variables.innerHTML = five.value;
-    console.log(five.value);
+    variables.value += 5;
 }
 
 function sixClick() {
-    variables.innerHTML = six.value;
-    console.log(six.value);
+    variables.value += 6;
 }
 
 function sevenClick() {
-    variables.innerHTML = seven.value;
-    console.log(seven.value);
+    variables.value += 7;
 }
 
 function eightClick() {
-    variables.innerHTML = eight.value;
-    console.log(eight.value);
+    variables.value += 8;
 }
 
 function nineClick() {
-    variables.innerHTML = nine.value;
-    console.log(nine.value);
+    variables.value += 9;
 }
 
 function splitClick() {
-    variables.innerHTML = split.value;
-    console.log(split.value);
+    variables.value += "/";
 }
 
 function multiplyClick() {
-    variables.innerHTML = multiply.value;
-    console.log(multiply.value);
+    variables.value += "*";
 }
 
 function minusClick() {
-    variables.innerHTML = minus.value;
-    console.log(minus.value);
+    variables.value += "-";
 }
 
 function dotClick() {
-    variables.innerHTML = dot.value;
-    console.log(dot.value);
+    variables.value += ".";
 }
 
 function plusClick() {
-    variables.innerHTML = plus.value;
-    console.log(plus.value);
+    variables.value += "+";
 }
 
 // function equallyClick() {
@@ -108,9 +118,9 @@ function plusClick() {
 //     result.innerHTML = variables.value;
 //     console.log(variables.value);    
 // }
+// function equallyClick() {
+//     result.innerHTML = result.value;
+//     console.log(result.value);    
+// }
 
-function equallyClick() {
-    let x = variables.value;
-    result.innerHTML = x.value;
-    console.log(x.value);    
-}
+// console.log(result.value);
