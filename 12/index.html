@@ -1,58 +1,54 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
     <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
+        <title>Calc</title>
         <link rel="stylesheet" href="./css/index.css">
     </head>
     <body>
-        <div class="table">
+        <div>
             <table>
                 <tr>
-                    <td colspan="5">
-                        <textarea readonly name="result" cols="40" rows="3" id="result"></textarea>
+                    <td colspan="5" id="color">
+                        <!-- <textarea readonly name="result"cols="40" rows="3"></textarea> -->
+                        <p id="result"></p>
                     </td>
                 </tr>
                 <tr>
-                    <td colspan="5"><input type="text" id="vars" readonly></td>
+                    <td colspan="5"><input type="text" readonly id="func"></td>
                 </tr>
                 <tr>
-                    <td><button id="backspace" onclick="">&larr;</button></td>
-                    <td><button id="clearAll">CE</button></td>
-                    <td><button id="clear">C</button></td>
-                    <td><button id="plusMinus">&plusmn;</button></td>
-                    <td><button id="sqrtButt">&radic;</button></td>
+                    <td colspan="2"><button style="width: 112px;" id="clean" onclick="clean()">C</button></td>
+                    <td><button id="plusMinus" onclick="plusMinus()">&plusmn;</button></td>
+                    <td><button>&radic;</button></td>
+                    <td><button>&larr;</button></td>
                 </tr>
                 <tr>
-                    <td><button id="seven" value="7" onclick="sevenClick()">7</button></td>
-                    <td><button id="eight" value="8" onclick="eightClick()">8</button></td>
-                    <td><button id="nine" value="9" onclick="nineClick()">9</button></td>
-                    <td><button id="split" value="/" onclick="splitClick()">/</button></td>
-                    <td><button id="percent">%</button></td>
+                    <td><button id="seven" onclick="seven()">7</button></td>
+                    <td><button id="eight" onclick="eight()">8</button></td>
+                    <td><button id="nine" onclick="nine()">9</button></td>
+                    <td><button>/</button></td>
+                    <td><button>%</button></td>
                 </tr>
                 <tr>
-                    <td><button id="four" value="4" onclick="fourClick()">4</button></td>
-                    <td><button id="five" value="5" onclick="fiveClick()">5</button></td>
-                    <td><button id="six" value="6" onclick="sixClick()">6</button></td>
-                    <td><button id="multiply" value="*" onclick="multiplyClick()">*</button></td>
-                    <td><button id="splitX">1/x</button></td>
+                    <td><button id="four" onclick="four()">4</button></td>
+                    <td><button id="five" onclick="five()">5</button></td>
+                    <td><button id="six" onclick="six()">6</button></td>
+                    <td><button>*</button></td>
+                    <td><button>1/x</button></td>
                 </tr>
                 <tr>
-                    <td><button id="one" value="1" onclick="oneClick()">1</button></td>
-                    <td><button id="two" value="2" onclick="twoClick()">2</button></td>
-                    <td><button id="three" value="3" onclick="threeClick()">3</button></td>
-                    <td><button id="minus" value="-" onclick="minusClick()">-</button></td>
-                    <td rowspan="2"><button id="equally"  onclick="equallyClick()">=</button></td>
+                    <td><button id="one" onclick="one()">1</button></td>
+                    <td><button id="two" onclick="two()">2</button></td>
+                    <td><button id="three" onclick="three()">3</button></td>
+                    <td><button>-</button></td>
+                    <td rowspan="2"><button style="height: 50px;">=</button></td>
                 </tr>
                 <tr>
-                    <td colspan="2"><button id="zero" value="0" onclick="zeroClick()">0</button></td>
-                    <td><button id="dot" value="." onclick="dotClick()">.</button></td>
-                    <td><button id="plus" value="+" onclick="plusClick()">+</button></td>
+                    <td colspan="2"><button style="width: 112px;" id="zero" onclick="zero()">0</button></td>
+                    <td><button>.</button></td>
+                    <td><button>+</button></td>
                 </tr>
             </table>
         </div>
-        <script src="./js/insex.js"></script>
+        <script src="./js/index.js"></script>
     </body>
 </html>
