@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/style.css">
+        <title>F*cking calc</title>
+    </head>
+    <body>
+        
+    <div class="calc">
+        <div class="answer">
+            <p id="board"></p>
+        </div>
+        <div class="buttons">
+            <button id="clear" onclick="clearBoard()">C</button>
+            <button onclick="plusMinus()">±</button>
+            <button onclick="sqrt()">√</button>
+            <button onclick="backspace()">←</button>
+            <button value="7" onclick="display('7')">7</button>
+            <button value="8" onclick="display('8')">8</button>
+            <button value="9" onclick="display('9')">9</button>
+            <button value="/" onclick="display(' / ')">/</button>
+            <button onclick="percent()">%</button>
+            <button value="4" onclick="display('4')">4</button>
+            <button value="5" onclick="display('5')">5</button>
+            <button value="6" onclick="display('6')">6</button>
+            <button value="*" onclick="display(' * ')">*</button>
+            <button onclick="splitX()">1/x</button>
+            <button value="1" onclick="display('1')">1</button>
+            <button value="2" onclick="display('2')">2</button>
+            <button value="3" onclick="display('3')">3</button>
+            <button value="-" onclick="display(' - ')">-</button>
+            <button value="+" onclick="display(' + ')">+</button>
+            <button id="zero" value="0" onclick="display('0')">0</button>
+            <button value="." onclick="display('.')">.</button>
+            <button id="equal" onclick="getAnswer()">=</button>
+        </div> 
+    </div>
+
+        <script src="./js/calc.js"></script>
+    </body>
+</html>
