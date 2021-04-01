@@ -39,22 +39,9 @@ function splitX() {
     document.getElementById("board").innerHTML = num;
 }
 
-// function backspace() {
-//     let num = document.getElementById("board").innerHTML;
-//     // let numBack = exp.substring(0, num.length-1);
-//     let back = exp.substring(0, num.length-1);
-//     // let result = strBoard.length (length -1);
-//     // let result = eval(strBoard);
-//     document.getElementById('board').innerHTML = back;
-// }
-
-// function backspace() {
-//     let numBack = document.getElementById("board").innerHTML;;
-//     let num = exp.substring(0, numBack.length-1);
-//     // document.getElementById("board").innerHTML = num;
-// }
-
-function backspace() {
-    let numBack = document.getElementById("board").innerHTML;
-    document.getElementById("board").value = numBack.substr(0, numBack.length - 1);
+function backspace(){
+    let numBack = document.getElementById('board').innerHTML;
+    numBack = numBack.substring(0, numBack.length-1);
+    num = numBack
+    document.getElementById("board").innerHTML = num;
 }
