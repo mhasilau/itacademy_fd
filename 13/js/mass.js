@@ -2,8 +2,6 @@
 
 let arr1 = [];
 let arr2 = [];
-let firstArr = [];
-let secondArr = [];
 
 for (let i = 0; i < 10; i++) {
     arr1[i] = Math.floor(Math.random(arr1[i]) * 100);
