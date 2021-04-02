@@ -2,7 +2,8 @@
 
 let arr1 = [];
 let arr2 = [];
-
+let firstArr = [];
+let secondArr = [];
 
 for (let i = 0; i < 10; i++) {
     arr1[i] = Math.floor(Math.random(arr1[i]) * 100);
@@ -12,13 +13,13 @@ for (let i = 0; i < 10; i++) {
     arr2[i] = Math.floor(Math.random(arr2[i]) * 100);
 }
 
-console.log(arr1);
+console.log(arr1); 
 console.log(arr2);
 
 //task 2
 
-function clue() {
-    let arr3 = arr1.concat(arr2);
+function clue(firstArr, secondArr) {
+    let arr3 = firstArr.concat(secondArr);
     let enterNumberEl = prompt("Enter the number of elements");
     num = Number(enterNumberEl);
     for (let i = 0; i < num; i++) {
@@ -57,4 +58,4 @@ function clue() {
     console.log(`Smaller element is ${min}`);
 }
 
-clue();
+clue(arr1, arr2);
