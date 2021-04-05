@@ -1,6 +1,6 @@
 let arr1 = [];
 let arr2 = [];
-NumOfRepeat = 32;
+NumOfRepeat = 8;
 
 for (let i = 0; i < NumOfRepeat; i++) {
     if (i % 2 == 0) {

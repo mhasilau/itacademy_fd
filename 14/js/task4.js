@@ -10,18 +10,19 @@ console.log(arr2);
 
 
 function comparison(var1, var2) {
-    if (var1.length == var1.length) {
 
-        for (let i = 0; i < 10; i++) {
-            if (var1[i] === var2[i]) {
-                
-            } else console.log("no");
-        }
-    }
+    if (var1.length == var2.length) {
+            if (var1 === var2) {
+                console.log("Arays are same")
+            } else console.log("Some elevemts are various");
+    } else console.log("Arays are different");
+
     
 
 
 }
 
-comparison(arr1, arr1);
+let arr3 = [1, 34, 34, 16, 38, 4];
+// comparison(arr1, arr1);
 // comparison(arr1, arr2);
+comparison(arr1, arr3)
