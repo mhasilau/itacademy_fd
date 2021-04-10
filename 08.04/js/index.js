@@ -1,14 +1,16 @@
-const str = 'Annak';
+const str = 'kAnnak';
 let y = false;
 
 function palindromCheck(pal) {
-    pal = pal.toLowerCase().split('');
+    let pal3 = pal.toLowerCase().split('');
+    let pal2 = pal.toLowerCase().split('').reverse();
     console.log(pal);
-    let pal2 = pal.reverse();
     console.log(pal2);
+    console.log(pal3);
 
-    for (let i = 0; i < pal.length; i++) {
-        if (!(pal[i] == pal2[i])) {
+
+    for (let i = 0; i < pal3.length; i++) {
+        if (!(pal3[i] == pal2[i])) {
             break;
         } else y = true;
         
