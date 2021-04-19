@@ -187,11 +187,42 @@
 
 // filterFalse(arr);
 
-//************ task 2
+//************ task 3
 
 
-function propertyValue(params) {
+// function propertyValue(params) {
     
+// }
+
+// propertyValue(array, key);
+
+//************ task 3
+
+//************ task 4
+
+//************ task 5
+const numbers = [2, 3, 5, 7, 11, 13, 17, 19];
+const newNumb = [];
+function currentSums(numb) { //my function
+    numb.reduce( (acc, item, i, numb) => {
+        newNumb.push(acc);
+        return acc + item; 
+    });
+    console.log(newNumb);
 }
 
-propertyValue(array, key);
+function currentSums(numb) { //debag with internet
+    let sum = numb.reduce( (acc, item, i, numb) => {
+        newNumb.push(acc);
+        return acc + item; 
+    });
+    newNumb.push(sum);
+    console.log(newNumb);
+}
+
+
+currentSums(numbers);
+
+//************ task 6
+
+//************ task 7
