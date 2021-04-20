@@ -34,8 +34,8 @@
 //************ task 4
 let srtArr = ['JavaScript', '—', 'мультипарадигменный', 'язык', 'программирования'];
 function srtArrLength(array) {
-    let arrayLength = array.reduce( (acc, item, i, array) => {
-        return acc + item.length;
+    let arrayLength = array.forEach(item => {
+        return item.length;
     });
     console.log(arrayLength);
 }
