@@ -201,28 +201,108 @@
 //************ task 4
 
 //************ task 5
-const numbers = [2, 3, 5, 7, 11, 13, 17, 19];
-const newNumb = [];
-function currentSums(numb) { //my function
-    numb.reduce( (acc, item, i, numb) => {
-        newNumb.push(acc);
-        return acc + item; 
-    });
-    console.log(newNumb);
-}
+// const numbers = [2, 3, 5, 7, 11, 13, 17, 19];
+// const newNumb = [];
+// function currentSums(numb) { //my function
+//     numb.reduce( (acc, item, i, numb) => {
+//         newNumb.push(acc);
+//         return acc + item; 
+//     });
+//     console.log(newNumb);
+// }
 
-function currentSums(numb) { //debag with internet
-    let sum = numb.reduce( (acc, item, i, numb) => {
-        newNumb.push(acc);
-        return acc + item; 
-    });
-    newNumb.push(sum);
-    console.log(newNumb);
-}
+// function currentSums(numb) { //debag with internet
+//     let sum = numb.reduce( (acc, item, i, numb) => {
+//         newNumb.push(acc);
+//         return acc + item; 
+//     });
+//     newNumb.push(sum);
+//     console.log(newNumb);
+// }
 
 
-currentSums(numbers);
+// currentSums(numbers);
 
 //************ task 6
+// const user1 = {
+//     firstname: 'mike',
+//     secondname: 'kozlov',
+//     age: 25,
+//     job: {
+//         first: 'ingener'
+//     }
+// };
+// const user2 = {
+//     firstname: 'alex',
+//     secondname: 'petrov',
+//     age: 24,
+//     job: {
+//         first: 'manager'
+//     }
+// };
+// const user3 = {
+//     firstname: 'john',
+//     secondname: 'sidorov',
+//     age: 28,
+//     job: {
+//         first: 'teacher'
+//     }
+// };
+// const user4 = {
+//     firstname: 'sam',
+//     secondname: 'ivanov',
+//     age: 21,
+//     job: {
+//         first: 'specialist'
+//     }
+// };
+// const user5 = {
+//     firstname: 'julia',
+//     secondname: 'pupkina',
+//     age: 45,
+//     job: {
+//         first: 'doctor',
+//         second: 'saler'
+//     }
+// };
+
+// const users = [
+//     user1,
+//     user2,
+//     user3,
+//     user4,
+//     user5
+// ];
 
 //************ task 7
+let inpEl = '';
+inpEl.innerHTML = document.getElementById('inpEl').value;
+const inpArr = [];
+const addBtn = document.getElementById('addBtn');
+// addBtn.addEventListener('click', () => {
+    //     console.log('hello');
+    // });
+    
+addBtn.onclick = function() {
+    inpArr.push(inpEl);
+    console.log(inpEl);
+    inpEl = '';
+}
+console.log(inpArr);
+
+// x = 0;
+// const plusbtn = document.getElementById('plus');
+// const minusbtn = document.getElementById('minus');
+// let result = document.getElementById('res');
+// result.innerHTML = 0;
+
+
+// plusbtn.onclick = function(){
+//     x++;
+//     result.innerHTML = x;
+// };
+
+// minusbtn.onclick = function(){
+//     x--;
+//     result.innerHTML = x;
+// };
