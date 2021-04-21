@@ -23,23 +23,76 @@
 // filterFalse(arr);
 
 //************ task 3
+// const personal = [
+//     {
+//        name:'Mikhail',
+//        secondName: 'Hasilau', 
+//        age: 29,
+//        job: 'anykey'
+//     }, 
+//     {
+//         name:'Valery',
+//         secondName: 'Kotau', 
+//         age: 29,
+//         job: 'specialist'
+//     }, 
+//     {
+//         name:'Olesya',
+//         secondName: 'Hulevich', 
+//         age: 42,
+//         job: 'jurist'
+//     },
+//     {
+//         name:'Hanna',
+//         secondName: 'Zohareva', 
+//         age: 32,
+//         job: 'specialist'
+//     },
+//     {
+//         name:'Tatiana',
+//         secondName: 'Zhukova', 
+//         age: 43,
+//         job: 'nurse'
+//     },
+//     {
+//         name:'Aleaksandr',
+//         secondName: 'Puzan', 
+//         age: 49,
+//         job: 'doctor'
+//     }
+   
+// ];
 
-
-// function propertyValue(params) {
-    
+// function propertyValue(array, key) {
+//     const filterArr = array.map( item => {
+//         return item[key];
+//     });
+//     console.log(filterArr);
 // }
 
-// propertyValue(array, key);
+// propertyValue(personal, 'job');
 
-//************ task 4
+//************ task 4 
+//поди разбери что тут происходит
+
 let srtArr = ['JavaScript', '—', 'мультипарадигменный', 'язык', 'программирования'];
+
 function srtArrLength(array) {
-    let arrayLength = array.forEach(item => {
-        return item.length;
-    });
+    let arrayLength = array.reduce( (acc, item) => {
+        return [acc + item.length];
+    }, []);
     console.log(arrayLength);
 }
-srtArrLength(srtArr)
+
+// function srtArrLength(array) {
+//     let arrayLength = array.reduce( (acc, item) => {
+//         return acc + item.length;
+        
+//     }, []);
+//     console.log(arrayLength);
+// }
+
+srtArrLength(srtArr);
 
 
 //************ task 5
