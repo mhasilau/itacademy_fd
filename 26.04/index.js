@@ -114,20 +114,20 @@
 
 
 
-const URL = 'https://jsonplaceholder.typicode.com/todos/1';
-const delay = ms => new Promise (resolve => setTimeout( () => resolve(), ms));
+// const URL = 'https://jsonplaceholder.typicode.com/todos/1';
+// const delay = ms => new Promise (resolve => setTimeout( () => resolve(), ms));
 
-const fetchTODO = () => fetch(URL)
-.then(response => response.json())
-.then(json => console.log(json))
+// const fetchTODO = () => fetch(URL)
+// .then(response => response.json())
+// .then(json => console.log(json))
 
 
 
-const getTODO = async () => {
-    await delay(3000);
-    await fetchTODO(3000);
-};
+// const getTODO = async () => {
+//     await delay(3000);
+//     await fetchTODO(3000);
+// };
 
-getTODO();
+// getTODO();
 
 
