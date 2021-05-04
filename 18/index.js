@@ -7,6 +7,12 @@ const butt =  document.createElement('button');
 butt.innerHTML = 'Add';
 document.body.append(butt);
 
+const music = document.getElementById('music');
+
+function playMusic(){
+    music.play();
+}
+
 butt.onclick = () => {
     const ul =  document.createElement('ul');
     const li =  document.createElement('li');
@@ -25,6 +31,7 @@ butt.onclick = () => {
         toDoArr.forEach( (el, i) => {
             // toDoArr.splice(i, 1);
             li.remove();
+		playMusic();
         });
         console.log(toDoArr);
     }
