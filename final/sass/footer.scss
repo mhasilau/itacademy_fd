@@ -6,4 +6,20 @@
     position: fixed; 
     bottom: 0;
     width: -webkit-fill-available;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;       
+
+    div {
+        margin: 10px;
+
+        a {
+            text-decoration: none;
+            color: black;
+            background-color: rgba(100, 96, 96, 0.664);
+        }
+
+    }
+
 }

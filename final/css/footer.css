@@ -1,0 +1,20 @@
+.footer {
+  min-width: 650px;
+  height: 70px;
+  background-color: aqua;
+  border-radius: 10px 10px 0 0;
+  position: fixed;
+  bottom: 0;
+  width: -webkit-fill-available;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center; }
+  .footer div {
+    margin: 10px; }
+    .footer div a {
+      text-decoration: none;
+      color: black;
+      background-color: rgba(100, 96, 96, 0.664); }
+
+/*# sourceMappingURL=footer.css.map */

@@ -5,9 +5,10 @@
     display: grid;
     grid-column: 1/4;
     grid-template-columns: 70px 11fr 1fr;
+    align-items: center;
+    text-align: center;
 
     .logo {
-        // background-color: black; 
 
             img {
                 width: 100%;
