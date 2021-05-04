@@ -1,0 +1,26 @@
+.header {
+    height: 70px;
+    background-color: aqua;
+    border-radius: 0 0 10px 10px;
+    display: grid;
+    grid-column: 1/4;
+    grid-template-columns: 70px 11fr 1fr;
+
+    .logo {
+        // background-color: black; 
+
+            img {
+                width: 100%;
+            }
+    }
+
+
+    .siteName {
+        // background-color: rgb(196, 142, 142); 
+    }
+
+
+    .signUp {
+        // background-color: rgb(28, 131, 28); 
+    }
+}
