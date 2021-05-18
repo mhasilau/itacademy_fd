@@ -1,0 +1,47 @@
+.header {
+    height: 70px;
+    background-color: aqua;
+    border-radius: 0 0 10px 10px;
+    display: grid;
+    grid-column: 1/5;
+    grid-template-columns: 70px 15fr 1fr 1fr;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+
+    .signUpMain, .signInMain, .logOut {
+
+        a {
+            color: black;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 20px;
+
+        }
+        :hover {
+            color: red;
+        }
+
+        
+    }
+    
+    .userName {
+        p {
+            color: black;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+    }
+
+    .logo {
+
+        // img {
+        //     width: 100%;
+        // }
+    }
+
+
+
+}
