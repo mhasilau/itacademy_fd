@@ -1,0 +1,15 @@
+.wrapper {
+    border: 1px solid;
+    border-radius: 10px;
+    width: 90%;
+    min-height: 80vh;
+    margin: 20px auto;
+
+    h1 {
+        text-align: center;
+    }
+
+    .addTodoBtn {
+        margin: 20px 0;
+    }
+}

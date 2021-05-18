@@ -15,6 +15,10 @@ module.exports = {
         new HTMLWebpackPlugin({
             filename: 'signin.html',
             template: './src/templates/signin.html'
+        }),
+        new HTMLWebpackPlugin({
+            filename: 'signup.html',
+            template: './src/templates/signup.html'
         })
     ],
     module: {
@@ -22,6 +26,10 @@ module.exports = {
             {
                 test: /\.scss$/,
                 use: ['style-loader', 'css-loader', 'sass-loader']
+            },
+            {
+                test: /\.html$/,
+                use: 'html-loader'
             }
         ]
     },

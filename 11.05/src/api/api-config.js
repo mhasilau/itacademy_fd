@@ -8,3 +8,5 @@ export const apiConfig = {
   };
 
   export const authURL = `https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=${apiConfig.apiKey}`;
+
+  export const baseURL = 'https://test-todo-50b52-default-rtdb.firebaseio.com/';
