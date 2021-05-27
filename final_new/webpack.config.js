@@ -8,24 +8,23 @@ module.exports = {
         path: path.resolve(__dirname, 'build')
     },
     devServer: {
-        port: 4200
+        port: 3000
     },
     plugins: [
         new HTMLWebpackPlugin({
             filename: 'index.html',
-            template: './src/index.html'
+            template: './src/index.html',
+            favicon: './src/assets/img/htmlcssjs.png'
         }),
         new HTMLWebpackPlugin({
             filename: 'sign-in.html',
-            template: './src/pages/sign-in.html'
+            template: './src/templates/sign-in.html',
+            favicon: './src/assets/img/htmlcssjs.png'
         }),
         new HTMLWebpackPlugin({
             filename: 'sign-up.html',
-            template: './src/pages/sign-up.html'
-        }),
-        new HTMLWebpackPlugin({
-            filename: 'twits.html',
-            template: './src/pages/twits.html'
+            template: './src/templates/sign-up.html',
+            favicon:  "./src/assets/img/htmlcssjs.png"
         })
     ],
     module: {
@@ -40,4 +39,4 @@ module.exports = {
             },
         ]
     },
-};
+}

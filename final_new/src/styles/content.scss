@@ -1,0 +1,64 @@
+textarea {
+    resize: none;
+    width: 500px;
+    height: 70px;
+}
+
+.area {
+    width: 50%;
+    height: 70px;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 5px;
+
+    .del {
+        text-align: end;
+    }
+}
+
+.content {
+
+    #mainPic {
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+        width: 60%;
+    }
+    
+    .formAndText {
+        position	: absolute;
+        p {
+            font-size: 50px;
+        }
+    }
+
+    .formIn, .input {
+        width: 30%;
+        text-align: center;
+
+        button {
+            width: 50%;
+        }
+
+        * {
+
+            width: 100%;
+        }
+    }
+}
+
+.signInForm {
+    justify-content: center;
+    text-align: center;
+    padding-top: 100px;
+    color: violet;    
+}
+
+.mainPic {
+    #mainPic {
+        position	: absolute;
+        bottom: 0px;
+        right: 0px;
+        width: 50%;
+    }
+}
